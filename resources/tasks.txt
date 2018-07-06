@@ -1,0 +1,10 @@
+table peptides
+
+3 conditions (ectoC, endoC, HSIL), 5 samples (1-->5)
+
+1-create average CM-->CQ (intensity HSIL)
+2-create sumarry table with mass (AG), proteins (AH), gene name (AL), average intensities per condition, score (AR), unique (proteins) AO.
+3-import an m/z value, calculate -1 to this m/z value (+-0.2), reduce to the first decimal ckeck if this value is there in the column "mass".
+4-sort by intensity in "average HSIL", "average ecto", "average endo"
+5-state in how many HSIL, ecto, endo cases it is present
+
